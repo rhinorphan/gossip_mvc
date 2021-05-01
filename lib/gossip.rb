@@ -5,12 +5,11 @@ Bundler.require
 
 class Gossip
   attr_accessor :author, :content, :id
-  @@id = 1
-  def initialize (author, content)
-    @id = @@id
+
+  def initialize (id, author, content)
+    @id = id
     @content = content
     @author = author
-    @@id += 1
   end
   def save
     csv = CSV.open("../gossip_MVC/db/gossip.csv", "a+", headers: ['ID', 'Author', 'Content'])

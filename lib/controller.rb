@@ -16,7 +16,7 @@ class Controller
     author = gets.chomp
     puts "Maintenant lâche le potin ! 🤪"
     content = gets.chomp
-    gossip = Gossip.new(author, content)
+    gossip = Gossip.new(id, author, content)
     gossip.save
   end
   def all_gossip

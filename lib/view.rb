@@ -48,6 +48,7 @@ class View
     puts
     puts "Lequel de ces potins souhaites-tu supprimer ? 🧐".center(160)
     puts "(Selectionne l'ID correspondant)".center(160)
+    print ">"
   end
 
   def display_retry
