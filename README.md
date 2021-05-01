@@ -1,4 +1,4 @@
-# The Gossip Project - a gossip app 
+# The Gossip Project - a gossip app (MVC version)
 
 ## Table of contents
 * [General info](#general-info)
